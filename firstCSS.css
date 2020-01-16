@@ -13,12 +13,12 @@ table{
 }
 
 td.nav{
-  font-size:8px;
+  font-size:12px;
   font-family: sans-serif;
   border: 1px solid;
   text-align: center;
   line-height: 60px;
-  width: 40%;
+  width: 60%;
   height: 20px;
   background-color: #f94349;
   border-color: #f94349;
@@ -30,7 +30,7 @@ td#nav:hover{
 
 h1{
   padding-top: 20px;
-  font-size: 35px;
+  font-size: 40px;
   color: #f0f0f0;
   padding-left: 10px;
   font-family: sans-serif;
