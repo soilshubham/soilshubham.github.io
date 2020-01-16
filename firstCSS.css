@@ -13,7 +13,7 @@ table{
 }
 
 td.nav{
-  font-size:80%;
+  font-size:8px;
   font-family: sans-serif;
   border: 1px solid;
   text-align: center;
@@ -24,25 +24,40 @@ td.nav{
   border-color: #f94349;
 }
 
-tr.nav{
-  font-size:100%;
-  font-family: sans-serif;
-  border: 1px solid;
-  padding: 40spx;
-  background-color: #2e2e2e;
-  border-color: #2e2e2e;
-  text-align: left;
-}
-
 td#nav:hover{
   background-color: #ed2c32;
 }
 
 h1{
-  padding-top: 40px;
+  padding-top: 20px;
+  font-size: 35px;
   color: #f0f0f0;
-  padding-left: 20px;
+  padding-left: 10px;
   font-family: sans-serif;
+}
+
+h5.title{
+  font-size: 70%;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  color:#f94349;
+}
+
+h6.mainBody{
+  font-size: 25px;
+}
+
+p.mainBody{
+  margin-right: 25px;
+  line-height:1.6;
+  font-size: 13px;
+}
+
+ul{
+  margin-right: 20px;
+  padding-left: 7%;
+  line-height: 1.4;
+  font-size: 12px;
 }
 
 div.nav{
@@ -52,14 +67,14 @@ div.nav{
 }
 
 div.title{
-    background-color: #2e2e2e;
+  background-color: #2e2e2e;
   font-size:200%;
   font-family: sans-serif;
   padding: 20px;
 }
 
 div.mainBody{
-  margin-left: 280px;
+  margin-left: 160px;
   margin-top: 50px;
 }
 
@@ -69,4 +84,60 @@ a.nav{
   text-decoration: none;
   width: 100%;
   height: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+  h1{
+    padding-top: 40px;
+    font-size: 200%;
+    color: #f0f0f0;
+    padding-left: 20px;
+    font-family: sans-serif;
+  }
+
+  h5.title{
+    font-size: 100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color:#f94349;
+  }
+
+
+  td.nav{
+    font-size:80%;
+    font-family: sans-serif;
+    border: 1px solid;
+    text-align: center;
+    line-height: 60px;
+    width: 40%;
+    height: 20px;
+    background-color: #f94349;
+    border-color: #f94349;
+  }
+
+  div.mainBody{
+    margin-left: 280px;
+    margin-top: 50px;
+  }
+
+  h6.mainBody{
+    font-size: 200%;
+  }
+
+  p.mainBody{
+    margin-right: 25px;
+    line-height:1.6;
+    font-size: 100%;
+  }
+
+  ul{
+    margin-right: 0;
+    padding-left: 3%;
+    line-height: 2;
+    font-size: 100%;
+  }
+
 }
