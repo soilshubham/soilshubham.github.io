@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	background: linear-gradient(to bottom right, #FAFAFA , #B6B6B6);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/*---------NAVIGATION---------*/
+
+.mainNav{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0.6em 1em;
+	font-size: 1.2rem;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 500px) {
+    .mainNav {
+        font-size: 1em;
+        padding: 0.5em 0.6em;
+    }
+}
+
+
+.navText{
+	color: white;
+}
+
+.heading{
+	font-size: 2.2em;
+	text-align: center;
+	color: #424242;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+		font-size: 1.5em;  
+		margin-top: 40px; 
+		margin-bottom: 50px;    
+    }
+}
+
+
+/*---------FACE---------*/
+
+.sahilFace{
+	display: flex;
+	justify-content: center;
+	height: 450px;
+	width: 450px;
+	padding-top: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    .sahilFace {
+		height: 350px;
+		width: 350px;  
+		margin-bottom: 30px;     
+    }
+}
+
+.mainBody{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+/*---------BUTTONS---------*/
+.buttons{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.blue-grd{
+	background: linear-gradient(to bottom right, #A447FF , #47A2FF);
+}
+
+.btn-1{
+	background-color: #A447FF;
+}
+
+.btn-2{
+	background-color: #47A2FF;
+}
+
+.btn{
+	padding: 10px 30px;
+	margin-bottom: 3px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	box-shadow: 0px 0px 0px transparent;
+    border: 0.6px solid white;
+    border-radius: 15px;
+    text-shadow: 0px 0px 0px transparent;
+    color: white;
+    letter-spacing: 2px;
+}
