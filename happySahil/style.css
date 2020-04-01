@@ -1,8 +1,12 @@
+html{
+	height: 100%;
+}
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
-	background: linear-gradient(to bottom right, #FAFAFA , #B6B6B6);
+	background-color: #F2F2F2;
+	/*background: linear-gradient(to bottom right, #FAFAFA , #B6B6B6);*/
 	background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
@@ -38,11 +42,12 @@ body{
 	color: #424242;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
     .heading {
-		font-size: 1.5em;  
+		font-size: 1.3em;  
 		margin-top: 40px; 
 		margin-bottom: 50px;    
     }
@@ -87,17 +92,34 @@ body{
 
 .btn-1{
 	background-color: #A447FF;
+	font-size: 1.3em;
+}
+.btn-1:hover{
+	background-color: #7A36BC;
+	font-size: 1.3em;
+}
+.btn-1:active{
+	font-size: 1.2em;
 }
 
 .btn-2{
 	background-color: #47A2FF;
+	font-size: 1.2em;
+}
+.btn-2:hover{
+	background-color: #3276BC;
+	font-size: 1.2em;
+}
+.btn-2:active{
+	font-size: 1.1em;
 }
 
+.btn:focus {outline:0 !important;}
 .btn{
 	padding: 10px 30px;
 	margin-bottom: 3px;
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.5em;
+
 	font-weight: 700;
 	box-shadow: 0px 0px 0px transparent;
     border: 0.6px solid white;
@@ -105,4 +127,26 @@ body{
     text-shadow: 0px 0px 0px transparent;
     color: white;
     letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .btn-1 {
+		font-size: 1em;    
+    }
+    .btn-1:hover{
+		font-size: 1em;
+	}
+	.btn-1:active{
+		font-size: 0.9em;
+	}
+    .btn-2{
+    	font-size: 0.9em;
+    }
+    .btn-2:hover{
+		font-size: 0.9em;
+	}
+	.btn-2:active{
+		font-size: 0.8em;
+	}
 }
