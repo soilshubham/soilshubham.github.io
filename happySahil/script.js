@@ -46,7 +46,7 @@ function faceChanger() {
 		heading.appendChild(document.createElement('br'));
 		heading.appendChild(document.createElement('b')).textContent = "he ate 45 momooos!!";
 	}
-	face.src="images/"+imag+".png";
+	face.src="images/"+imag+"b.png";
 }
 
 function feeded(){
