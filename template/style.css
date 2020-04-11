@@ -69,7 +69,7 @@ a {
 
 .content{
     padding: 20px;
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: left;
     letter-spacing: 1.5px;
 }
@@ -84,6 +84,7 @@ a {
     background-color: #262830;
     font-size: 0.8em;
     letter-spacing: 2px;
+    border: 0px;
 
 }
 
