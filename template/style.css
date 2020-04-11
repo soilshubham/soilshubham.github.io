@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    color:#FFF;
+    color:#dfe3ef;
     font-family: sans-serif;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 .nav-color {
-    background: #56B870;
+    background: #6c63ff;
 } 
 
 /***********************************************************************
@@ -64,7 +64,7 @@ a {
  *  Main Body
  **********************************************************************/
 .main-body {
-    background-color: #444;
+    background-color: #30374e;
 }
 
 .content{
@@ -80,7 +80,7 @@ a {
     color: grey;
     text-align: center;
     padding: 60px 0px;
-    background-color: black;
+    background-color: #262830;
     font-size: 0.8em;
     letter-spacing: 2px;
 
