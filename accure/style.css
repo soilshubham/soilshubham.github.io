@@ -1,0 +1,155 @@
+/***********************************************************************
+ *  Color pallate
+
+ white - #f0f0f0
+ purp - #6c63ff
+ dark purp - #30374e
+ black - #262830
+
+ **********************************************************************/
+
+
+.dark-font{
+    color:#262830;
+}
+
+
+
+body {
+    margin: 0 auto;
+    color:#f0f0f0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.zone {
+    font-size:2em;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.my-main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .my-main-nav {
+        font-size: 0.6em;
+    }
+}
+
+.my-push-left {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+li {
+    padding: 15px 10px;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f0f0f0;
+    text-decoration: none;  
+}
+
+.my-nav-color {
+    background: #6c63ff;
+} 
+
+.my-nav-logo{
+    height: 2em;
+    width: 2em;
+    margin-left: 20px;
+}
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.my-cover {
+    height: 60vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-cover-color {
+    background-color: #f0f0f0;
+}
+
+.my-cover-img{
+    height: 50%;
+}
+
+/***********************************************************************
+ *  Main Body
+ **********************************************************************/
+.my-products {
+    background-color: #f0f0f0;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.my-prod-head{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.my-about{
+    background-color: #30374e;
+}
+.my-content{
+    padding: 20px;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.my-prod-sub{
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 1000px) {
+   .my-prod-head{
+        font-size: 8em;
+        font-weight: 100;
+    } 
+
+    .my-prod-sub{
+        font-size: 3em;
+    }
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+.my-footer {
+    color: grey;
+    text-align: center;
+    padding: 60px 0px;
+    background-color: #262830;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    border: 0px;
+
+}
+
+.my-hr-footer{
+    width: 70vw; 
+    border: 0.5px solid grey;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.row{
+    padding: 0px 20px; 
+}
