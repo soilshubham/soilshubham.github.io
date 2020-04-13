@@ -10,26 +10,28 @@
   	<link rel="stylesheet" type="text/css" href="./style.css">
   	<link rel="stylesheet" type="text/css" href="./decor.css">
 
+	
 </head>
 <body>
-	<nav class="my-nav-color sticky">							  <!-- Navigation Bar -->
+	<a id="web-top"></a>
+	<nav class="my-nav-color sticky" >							  <!-- Navigation Bar -->
     	<ul class="my-main-nav">
     		<li><a href="./index.html"><img src="./images/logo.png" class="my-nav-logo"></a></li>
-        	<a href=""><li>ACCURE</li></a>
-        	<a href=""><li>SERVICES</li></a>
-	        <a href=""><li>ABOUT</li></a>
-	        <li class="my-push-left"><a href="">CONTACT</a></li>
+        	<a href="#web-top"><li>ACCURE</li></a>
+        	<a href="#services"><li>SERVICES</li></a>
+	        <a href="#about"><li>ABOUT</li></a>
+	        <a href="mailto:accure@chipp.wtf?subject=Accure - Chipp" class="my-push-left"><li>CONTACT</li></a>
     	</ul>
   	</nav>
 
   	<div class="my-cover my-cover-color">					  <!-- Cover -->
   		<img src="./images/cover.jpg" class="my-cover-img fadeIn">
   	</div>
-
+  	<a id="services"></a>
   	<div class="my-products">							<!-- Products -->
 		<div class="my-content dark-font slideIn">
-			<h1 class="my-prod-head">SERVICES</h1>
-			<p class="my-prod-sub">Here are some services we provide.</p><br>
+			<h1 class="my-head">SERVICES</h1>
+			<p class="my-sub-head">Here are some services we provide.</p><br>
 		</div>
 		<div class="slideIn">									<!-- Cards -->
 			<div class="row justify-content-left">
@@ -72,11 +74,16 @@
 		</div>
   	</div>
 
-  	<div class="my-about">							<!-- Main Body -->
+  	<a id="about"></a>
+  	<div name="about" class="my-about">							<!-- Main Body -->
 		<div class="my-content">
-			<p>
-				
-			</p>
+			<div class="my-content">
+				<h1 class="my-head">ABOUT</h1>
+				<p class="my-sub-head">Team Chipp</p><br>
+				<p class="my-descr">We are a team consisting of four members from SRM University AP. We tend to solve various problems and issues in a more feasible and efficient way. We provide scalable solutions which can be implemented at various platforms.<br><br>
+				Click <a class="my-link" href="http://chipp.wtf">here</a> to learn more.</p>
+
+			</div>
 		</div>
   	</div>
   	<footer class="my-footer">							<!-- Footer -->

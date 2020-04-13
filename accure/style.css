@@ -13,6 +13,9 @@
     color:#262830;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 html,body
 {
@@ -23,6 +26,7 @@ body {
     margin: 0 auto;
     color:#f0f0f0;
     font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
 
 }
 
@@ -59,7 +63,7 @@ a {
 }
 
 a:hover{
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none;  
 }
 
@@ -132,11 +136,13 @@ a:hover{
 .my-products {
     background-image: linear-gradient(to top, #30374e, #30374e, #f0f0f0, #f0f0f0);
     padding: 0px 10px;
-    margin: 0px;
+    margin-top: 50px;
+    height: 100%;
+    transition: transform 1s ease;
 }
 
-.my-prod-head{
-    font-size: 3em;
+.my-head{
+    font-size: 4em;
     font-weight: 100;
 }
 
@@ -146,24 +152,36 @@ a:hover{
     text-align: left;
 }
 
-.my-prod-sub{
+.my-descr{
+	font-size: 1.2em;
+	font-weight: 300;
+	width: 60vw;
+}
+
+.my-sub-head{
     font-size: 1em;
 }
 
 .my-about{
     background-color: #30374e;
+    padding-bottom: 200px;
 }
 
 
 @media only screen and (max-width: 1000px) {
-   .my-prod-head{
+   .my-head{
         font-size: 8em;
         font-weight: 100;
     } 
 
-    .my-prod-sub{
+    .my-sub-head{
         font-size: 3em;
     }
+    .my-descr{
+		font-size: 4em;
+		font-weight: 300;
+		width: 100%;
+	}
 }
 
 /***********************************************************************
