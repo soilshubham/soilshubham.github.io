@@ -188,22 +188,16 @@ a:hover{
  *  Footer
  **********************************************************************/
 .my-footer {
-    color: grey;
+	color: #6c748c;
     text-align: center;
-    padding: 60px 0px;
+    padding: 60px;
     background-color: #262830;
     font-size: 0.8em;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border: 0px;
 
 }
 
-.my-hr-footer{
-    width: 70vw; 
-    border: 0.5px solid grey;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
 
 .row{
     padding: 0px 20px; 
