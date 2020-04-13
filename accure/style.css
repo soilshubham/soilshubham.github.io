@@ -65,9 +65,20 @@ a:hover{
 
 .my-nav-color {
     background: #6c63ff;
-    position: -webkit-sticky; /* Safari */
-  	position: sticky;
 } 
+
+.sticky{
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.card{
+	overflow: auto;
+
+}
 
 .my-nav-logo{
     height: 2em;
@@ -102,12 +113,16 @@ a:hover{
 
 .my-cover-img{
     height: 50%;
+    margin-top: 40px; 
 }
 
 @media only screen and (max-width: 1000px){
 
 	.my-cover {
-    	height: 40vh;
+    	height: 60vh;
+	}
+	.my-cover-img{
+    	height: 40%; 
 	}
 }
 
@@ -125,9 +140,6 @@ a:hover{
     font-weight: 100;
 }
 
-.my-about{
-    background-color: #30374e;
-}
 .my-content{
     padding: 20px;
     font-size: 1vw;
@@ -137,6 +149,11 @@ a:hover{
 .my-prod-sub{
     font-size: 1em;
 }
+
+.my-about{
+    background-color: #30374e;
+}
+
 
 @media only screen and (max-width: 1000px) {
    .my-prod-head{
