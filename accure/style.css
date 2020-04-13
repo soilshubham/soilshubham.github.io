@@ -1,7 +1,7 @@
 /***********************************************************************
  *  Color pallate
 
- white - #f0f0f0
+ white - #f0f0f0 
  purp - #6c63ff
  dark purp - #30374e
  black - #262830
@@ -40,13 +40,9 @@ body {
     padding: 0;
     font-size: 1em;
     align-items: center;
+    
 }
 
-@media only screen and (max-width: 1000px) {
-    .my-main-nav {
-        font-size: 0.6em;
-    }
-}
 
 .my-push-left {
     margin-left: auto;
@@ -54,7 +50,7 @@ body {
 }
 
 li {
-    padding: 15px 10px;
+    padding: 15px 20px;
 }
 
 a {
@@ -69,12 +65,25 @@ a:hover{
 
 .my-nav-color {
     background: #6c63ff;
+    position: -webkit-sticky; /* Safari */
+  	position: sticky;
 } 
 
 .my-nav-logo{
     height: 2em;
     width: 2em;
-    margin-left: 10px;
+    margin-left: 6px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .my-main-nav {
+        font-size: 0.8em;
+    }
+
+    li {
+    	padding: 15px 7px;
+	}
+
 }
 
 /***********************************************************************
@@ -95,11 +104,18 @@ a:hover{
     height: 50%;
 }
 
+@media only screen and (max-width: 1000px){
+
+	.my-cover {
+    	height: 40vh;
+	}
+}
+
 /***********************************************************************
  *  Main Body
  **********************************************************************/
 .my-products {
-    background-color: #f0f0f0;
+    background-image: linear-gradient(to top, #30374e, #30374e, #f0f0f0, #f0f0f0);
     padding: 0px 10px;
     margin: 0px;
 }
