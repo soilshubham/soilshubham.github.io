@@ -30,7 +30,7 @@ export const Navbar = () => {
                         <a href="#">Projects</a>
                     </li>
                     <li>
-                        <Button variant="outlined" color="primary">Let's Talk</Button>
+                        <Button className="btn" variant="contained" color="primary" disableElevation>Let's Talk</Button>
                     </li>
                 </ul>
                 <MenuIcon

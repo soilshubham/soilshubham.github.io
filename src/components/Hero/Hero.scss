@@ -3,13 +3,13 @@ header {
   .hero-section-grid {
     padding: 5rem 10rem;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     .title {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-      font-family: inter;
+      font-family: "Inter", sans-serif;
 
       .title-1 {
         font-weight: 300;
@@ -28,6 +28,19 @@ header {
         font-weight: 300;
         font-size: 1rem;
         margin: 1rem 0;
+        text-transform: capitalize;
+      }
+      .call-to-action {
+        margin-top: 2rem;
+
+        .btn {
+          background-color: #4f3dfe;
+          padding: 0.7rem 2rem;
+          text-transform: none;
+          font-family: "Inter", sans-serif;
+          font-size: 1rem;
+          font-weight: 600;
+        }
       }
     }
 
@@ -44,7 +57,7 @@ header {
 
   @media all and (max-width: 960px) {
     .hero-section-grid {
-      padding: 5rem 0rem;
+      padding: 2rem 0rem;
       display: flex;
       flex-direction: column-reverse;
       .title {
@@ -55,13 +68,14 @@ header {
       .image {
         img {
           width: 60%;
+          margin-bottom: 2rem;
         }
       }
     }
   }
   @media all and (max-width: 500px) {
     .hero-section-grid {
-      padding: 5rem 0.5rem;
+      padding: 1rem 0.5rem;
       display: flex;
       flex-direction: column-reverse;
 
