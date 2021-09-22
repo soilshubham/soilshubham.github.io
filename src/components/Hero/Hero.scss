@@ -34,7 +34,7 @@ header {
         margin-top: 2rem;
 
         .btn {
-          background-color: #4f3dfe;
+          background-color: #946dff;
           padding: 0.7rem 2rem;
           text-transform: none;
           font-family: "Inter", sans-serif;
@@ -63,6 +63,24 @@ header {
       .title {
         align-items: center;
         text-align: center;
+
+        .title-1 {
+        }
+        .title-2 {
+        }
+        .title-3 {
+        }
+        .title-4 {
+          margin: 0.1rem 0;
+        }
+        .call-to-action {
+          margin-top: 2rem;
+          .btn {
+            padding: 0.7rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+          }
+        }
       }
 
       .image {
@@ -96,13 +114,22 @@ header {
         .title-4 {
           font-weight: 300;
           font-size: 1rem;
-          margin: 1rem 0;
+          margin: 0.1rem 0;
+        }
+        .call-to-action {
+          margin-top: 1rem;
+          .btn {
+            padding: 0.5rem 1.7rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+          }
         }
       }
 
       .image {
         img {
           width: 100%;
+          margin-bottom: 1rem;
         }
       }
     }
