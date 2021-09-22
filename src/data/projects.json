@@ -1,0 +1,37 @@
+[
+  {
+    "name": "DigiBros Website",
+    "desc": "DigiBros is a marketing and advertising startup, based in Guntu, Andra Pradesh. This is a static landing page website for the company (on-going)",
+    "image": "digibros",
+    "codeLink": "https://github.com/soilshubham/digibros-website",
+    "demoLink": "https://soilshubham.github.io/digibros-website"
+  },
+  {
+    "name": "RipEat Website",
+    "desc": "RipEat is a cloud kitchen startup, based in Bangalore. I made a static landing page website for the company with suitable design and colors. (on-going)",
+    "image": "ripeat",
+    "codeLink": "https://github.com/soilshubham/RipEat-Website",
+    "demoLink": "https://soilshubham.github.io/RipEat-Website/"
+  },
+  {
+    "name": "OurEye App Design",
+    "desc": "This is an App design project for Oureye.ai. OurEye.ai is a Real-Time video analytics platform, based in Bangalore, India.",
+    "image": "oureyeapp",
+    "codeLink": "https://www.figma.com/proto/tk0LOHCmA2cZaPoydENJoL/OurEye-App-Design?node-id=499%3A3229&scaling=scale-down&page-id=499%3A3228",
+    "demoLink": "https://www.figma.com/proto/tk0LOHCmA2cZaPoydENJoL/OurEye-App-Design?node-id=499%3A3229&scaling=scale-down&page-id=499%3A3228"
+  },
+  {
+    "name": "ClassX",
+    "desc": "ClassX is a web app built for students at SRM University AP. This can be used to manage the lecture recordings in an efficient and less time consuming way.",
+    "image": "classx",
+    "codeLink": "https://github.com/soilshubham/ClassX",
+    "demoLink": "https://soilshubham.github.io/ClassX"
+  },
+  {
+    "name": "Sanitize Squad",
+    "desc": "Sanitize Squad is an android game built on Unity. The game focuses on teaching reflection and laws of reflection in a fun and gamified way. ",
+    "image": "sanitizesquad",
+    "codeLink": "https://play.google.com/store/apps/details?id=com.unleashgames.sanitizesquad",
+    "demoLink": "https://play.google.com/store/apps/details?id=com.unleashgames.sanitizesquad"
+  }
+]

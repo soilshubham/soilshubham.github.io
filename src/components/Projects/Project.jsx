@@ -1,7 +1,8 @@
 import React from 'react'
 import './Project.scss'
 import { Button, Grid, Typography } from "@material-ui/core";
-import UiUxDevIcon from '../../assets/icons/uiux.png'
+import projectimage from '../../assets/projects/website.jpg'
+import ProjectData from '../../data/projects.json'
 
 export const Project = () => {
     return (
@@ -12,13 +13,31 @@ export const Project = () => {
             </div>
             <div className="projects">
                 <Grid container >
-                    <Grid md={4} sm={12} item className="grid-item">
-                        <div className="card">
-                            <img src={UiUxDevIcon} alt="ui-ux" />
-                            <div className="title">Project 1</div>
-                            <div className="desc">I do ui/ux design for the website that helps website to get a unique look.</div>
-                        </div>
-                    </Grid>
+                    {
+                        ProjectData.map((project, key) => {
+                            return (
+                                <Grid md={4} sm={12} item className="grid-item">
+                                    <div className="card">
+                                        <div className="image">
+                                            <img src={require(`../../assets/projects/${project.image}.png`).default} alt="ui-ux" />
+                                        </div>
+                                        <div className="card-body">
+                                            <div className="title">{project.name}</div>
+                                            <div className="desc">{project.desc}</div>
+                                            <div className="buttons">
+                                                <a target="_blank" href={project.codeLink}>
+                                                    <Button variant="contained" color="primary" disableElevation className="btn-1">View Code</Button>
+                                                </a>
+                                                <a target="_blank" href={project.demoLink}>
+                                                    <Button variant="contained" color="primary" disableElevation className="btn-2">Live Demo</Button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Grid>
+                            )
+                        })
+                    }
                 </Grid>
             </div>
         </div>
