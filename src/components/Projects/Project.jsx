@@ -6,7 +6,7 @@ import ProjectData from '../../data/projects.json'
 
 export const Project = () => {
     return (
-        <div className="project-sec">
+        <div className="project-sec" id="project">
             <div className="title">
                 <h3>Some of my recent works</h3>
                 <h1>Projects</h1>
@@ -16,7 +16,7 @@ export const Project = () => {
                     {
                         ProjectData.map((project, key) => {
                             return (
-                                <Grid md={4} sm={12} item className="grid-item">
+                                <Grid md={4} sm={12} item className="grid-item" key={key}>
                                     <div className="card">
                                         <div className="image">
                                             <img src={require(`../../assets/projects/${project.image}.png`).default} alt="ui-ux" />
