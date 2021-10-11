@@ -41,7 +41,7 @@ export const Navbar = () => {
                             }}
                         >Projects</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a target="_blank" href="https://twitter.com/messages/compose?recipient_id=763040225551536128&text=Hi%20Sahil,"
                             onClick={() => {
                                 setNavBarToggle(false);
@@ -49,7 +49,7 @@ export const Navbar = () => {
                         >
                             <Button className="btn" variant="contained" color="primary" disableElevation>Let's Talk</Button>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 <MenuIcon
                     className="nav-toggle-icon"

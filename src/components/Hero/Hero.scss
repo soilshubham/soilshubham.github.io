@@ -1,7 +1,7 @@
 header {
   // background-color: #e9e9e9;
   .hero-section-grid {
-    padding: 5rem 10rem;
+    padding: 5rem 10rem 10rem;
     display: flex;
     flex-direction: row;
     .title {
@@ -17,11 +17,11 @@ header {
       }
       .title-2 {
         font-weight: 700;
-        font-size: 4rem;
+        font-size: 4.5rem;
       }
       .title-3 {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-transform: capitalize;
       }
       .title-4 {
@@ -34,18 +34,20 @@ header {
         margin-top: 2rem;
 
         .btn {
-          background-color: #946dff;
-          border: solid 1px #946dff;
+          background-color: #28b0ff;
+          border: solid 1px #28b0ff;
           padding: 0.7rem 2rem;
           text-transform: none;
           font-family: "Inter", sans-serif;
           font-size: 1rem;
           font-weight: 600;
+          text-transform: uppercase;
         }
-        .btn-2 {
+        .btn-outline {
+          border-radius: 0;
           background-color: #ffffff;
-          border: solid 1px #946dff;
-          color: #946dff;
+          border: solid 1px #000000;
+          color: #000000;
           padding: 0.7rem 2rem;
           text-transform: none;
           font-family: "Inter", sans-serif;
@@ -92,7 +94,7 @@ header {
             font-size: 1rem;
             font-weight: 600;
           }
-          .btn-2 {
+          .btn-outline {
             padding: 0.7rem 2rem;
             font-size: 1rem;
             font-weight: 600;
@@ -140,7 +142,7 @@ header {
             font-size: 0.9rem;
             font-weight: 600;
           }
-          .btn-2 {
+          .btn-outline {
             padding: 0.5rem 1.7rem;
             font-size: 0.9rem;
             font-weight: 600;
