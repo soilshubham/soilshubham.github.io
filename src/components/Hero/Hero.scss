@@ -34,9 +34,13 @@ header {
         margin-top: 2rem;
 
         .btn {
-          background-color: #28b0ff;
-          border: solid 1px #28b0ff;
-          padding: 0.7rem 2rem;
+          background: rgb(40, 193, 255);
+          background: linear-gradient(
+            27deg,
+            rgba(40, 193, 255, 1) 45%,
+            rgba(44, 215, 255, 1) 100%
+          );
+          padding: 0.9rem 2.7rem;
           text-transform: none;
           font-family: "Inter", sans-serif;
           font-size: 1rem;
