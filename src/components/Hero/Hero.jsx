@@ -8,12 +8,12 @@ export const Hero = () => {
   return (
     <header id="home">
       <Grid container className="hero-section-grid">
-        <Grid item md={7} className="title">
+        <Grid item md={6} className="title">
           <div>
             <div className="title-1">Hello There, I'm</div>
             <div className="title-2">Sahil Shubham</div>
             <div className="title-3">designer / frontend developer</div>
-            <div className="title-4"><LocationOnOutlinedIcon style={{ paddingTop: "0.6rem" }} />Based in Chhattisgarh, India.</div>
+            <div className="title-4"><LocationOnOutlinedIcon style={{ fontSize: "1rem", marginRight: "0.3rem", transform: "translateY(1px)" }} />Based in Chhattisgarh, India.</div>
             <div className="call-to-action">
               <a target="_blank" href="https://drive.google.com/file/d/1q6m7sBqAZWXxQJdS6bRFLFVJAbEZVKeR/view">
                 <Button className="btn" variant="contained" color="primary" disableElevation>Resume</Button>
@@ -24,7 +24,7 @@ export const Hero = () => {
             </div>
           </div>
         </Grid>
-        <Grid item md={5} className="image">
+        <Grid item md={6} className="image">
           <img src={CoverImage}></img>
         </Grid>
       </Grid>

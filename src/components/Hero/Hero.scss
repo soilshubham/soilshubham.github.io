@@ -1,7 +1,7 @@
 header {
   // background-color: #e9e9e9;
   .hero-section-grid {
-    padding: 5rem 10rem 10rem;
+    padding: 3rem 10rem 10rem;
     display: flex;
     flex-direction: row;
     .title {
@@ -94,7 +94,7 @@ header {
         .call-to-action {
           margin-top: 2rem;
           .btn {
-            padding: 0.7rem 2rem;
+            padding: 0.9rem 2.7rem;
             font-size: 1rem;
             font-weight: 600;
           }
@@ -123,27 +123,27 @@ header {
       .title {
         .title-1 {
           font-weight: 300;
-          font-size: 1.2rem;
+          font-size: 1.1rem;
         }
         .title-2 {
           font-weight: 700;
-          font-size: 2.5rem;
+          font-size: 2.6rem;
         }
         .title-3 {
-          font-weight: 700;
-          font-size: 1.3rem;
+          font-weight: 600;
+          font-size: 1.1rem;
           text-transform: capitalize;
         }
         .title-4 {
           font-weight: 300;
           font-size: 1rem;
-          margin: 0.1rem 0;
+          margin: 1rem 0;
         }
         .call-to-action {
-          margin-top: 1rem;
+          margin-top: 2rem;
           .btn {
-            padding: 0.5rem 1.7rem;
-            font-size: 0.9rem;
+            padding: 0.9rem 2.7rem;
+            font-size: 1rem;
             font-weight: 600;
           }
           .btn-outline {
