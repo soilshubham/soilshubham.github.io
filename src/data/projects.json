@@ -59,5 +59,21 @@
         "link": "https://froznpoop.portfoliobox.net/"
       }
     ]
+  },
+  {
+    "name": "Covid Data Tracker",
+    "desc": "",
+    "image": "",
+    "keywords": "React, MUI, REST API",
+    "links": [
+      {
+        "type": "github",
+        "link": "https://github.com/soilshubham/Covid-Tracker"
+      },
+      {
+        "type": "demo",
+        "link": "https://soilshubham.github.io/Covid-Tracker/"
+      }
+    ]
   }
 ]
