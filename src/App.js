@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Hero, About, Project, Footer } from './components';
+import { Navbar, Hero, Services, Project, Footer, About } from './components';
 import './App.scss'
 export default class App extends Component {
     render() {
@@ -8,6 +8,7 @@ export default class App extends Component {
                 <Navbar />
                 <Hero />
                 <About />
+                <Services />
                 <Project />
                 <Footer />
             </>
