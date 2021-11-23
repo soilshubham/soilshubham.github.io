@@ -1,4 +1,4 @@
-.about-sec {
+.services-section {
   font-family: "Inter", sans-serif;
   padding: 15rem 0 10rem;
   background-color: rgb(248, 248, 248);
@@ -57,9 +57,10 @@
 }
 
 @media all and (max-width: 1200px) {
-  .about-sec {
+  .services-section {
     font-family: "Inter", sans-serif;
-    margin-top: 3rem;
+    margin-top: 11rem;
+    padding-top: 7rem;
     .title {
       text-align: center;
       margin-bottom: 2rem;
@@ -106,7 +107,7 @@
 }
 
 @media all and (max-width: 960px) {
-  .about-sec {
+  .services-section {
     .services {
       .grid-item {
         .card {

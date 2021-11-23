@@ -13,7 +13,7 @@ export const Hero = () => {
   return (
     <header id="home">
       <Grid container className="hero-section-grid">
-        <Grid item md={6} className="title">
+        <Grid item md={6} sm={12} className="title">
           <div>
             <div className="title-1">Hello There, I'm</div>
             <div className="title-2">Sahil Shubham</div>
@@ -39,7 +39,7 @@ export const Hero = () => {
             </div>
           </div>
         </Grid>
-        <Grid item md={6} className="code-block-container">
+        <Grid item md={6} sm={12} className="code-block-container">
           {/* <img src={CoverImage}></img> */}
           <CodeBlocks />
         </Grid>

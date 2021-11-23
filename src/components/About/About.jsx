@@ -31,7 +31,7 @@ export const About = () => {
 
     return (
         <>
-            <Grid container className="about-section">
+            <Grid container className="about-section" id="about">
                 <div className="bg-box"></div>
                 <Grid item sm={4} className="left-section">
                     <img src={PersonalPhoto} alt="sahil" className="personal-photo" />

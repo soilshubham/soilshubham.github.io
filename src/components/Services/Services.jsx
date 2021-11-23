@@ -9,7 +9,7 @@ import UiUxDevIcon from '../../assets/icons/uiux.png'
 export class Services extends Component {
     render() {
         return (
-            <div className="about-sec" id="about">
+            <div className="services-section" id="services">
                 <div className="title">
                     <h1>Expertise</h1>
                 </div>

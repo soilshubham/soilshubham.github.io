@@ -35,6 +35,13 @@ export const Navbar = () => {
                         >About</a>
                     </li>
                     <li>
+                        <a href="#services"
+                            onClick={() => {
+                                setNavBarToggle(false);
+                            }}
+                        >Services</a>
+                    </li>
+                    <li>
                         <a href="#project"
                             onClick={() => {
                                 setNavBarToggle(false);
