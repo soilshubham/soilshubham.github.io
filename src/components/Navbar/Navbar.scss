@@ -2,8 +2,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 8rem;
+  padding: 1.2rem 8rem;
   font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 100%;
+  color: #383838;
+  z-index: 1;
+  background-color: #f8f8f8;
+
   .nav-logo {
     font-size: 1.5rem;
     font-weight: 700;
@@ -13,9 +19,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     li {
       padding: 0 0 0 3rem;
+      color: #6d83f2;
     }
     a {
       font-size: 0.9rem;
@@ -40,13 +46,14 @@ nav {
 
   @media all and (max-width: 768px) {
     padding: 1rem 2rem;
+    position: fixed;
 
     .nav-toggle-icon {
       display: block;
     }
 
     .nav-links {
-      z-index: 10;
+      z-index: 20;
       position: fixed;
       display: block;
       top: 0;

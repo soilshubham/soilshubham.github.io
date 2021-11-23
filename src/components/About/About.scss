@@ -1,0 +1,129 @@
+.about-section {
+  z-index: 0;
+  position: relative;
+  margin-top: 5rem;
+  padding: 5rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .left-section {
+    z-index: 2;
+    .personal-photo {
+      width: 100%;
+    }
+  }
+
+  .right-section {
+    z-index: 2;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 150%;
+      font-weight: 300;
+    }
+    .skills-section {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      span {
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 50px;
+        padding: 0.3rem 1rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .bg-box {
+    position: absolute;
+    top: -10px;
+    background-color: #6d83f2;
+    background: linear-gradient(
+      134deg,
+      rgb(106, 152, 240) 0%,
+      rgb(73, 97, 220) 99%
+    );
+    width: 100%;
+    height: 36rem;
+    transform: skewY(-3deg);
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .about-section {
+    margin-top: 5rem;
+    padding: 5rem 5rem;
+  }
+}
+@media all and (max-width: 960px) {
+  .about-section {
+    margin-top: 5rem;
+    padding: 5rem 2rem;
+
+    .bg-box {
+      position: absolute;
+      top: -10px;
+      background-color: #6d83f2;
+      background: linear-gradient(
+        134deg,
+        rgb(106, 152, 240) 0%,
+        rgb(73, 97, 220) 99%
+      );
+      width: 100%;
+      height: 100%;
+      transform: skewY(-3deg);
+    }
+  }
+}
+@media all and (max-width: 600px) {
+  .about-section {
+    margin-top: 5rem;
+    padding: 5rem 2rem;
+
+    .right-section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      .title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        text-align: center;
+        line-height: 150%;
+        font-weight: 300;
+      }
+      .skills-section {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1rem;
+
+        span {
+          background-color: rgba(255, 255, 255, 0.15);
+          border-radius: 50px;
+          padding: 0.2rem 1rem;
+          margin-bottom: 0.5rem;
+          margin-right: 0.5rem;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

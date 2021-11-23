@@ -11,7 +11,6 @@ export const Project = () => {
     return (
         <div className="project-sec" id="project">
             <div className="pg-title">
-                <h3>Stuff I’ve Worked On</h3>
                 <h1>Projects</h1>
             </div>
             <div className="projects">

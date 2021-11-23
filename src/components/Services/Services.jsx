@@ -11,8 +11,7 @@ export class Services extends Component {
         return (
             <div className="about-sec" id="about">
                 <div className="title">
-                    <h3>What I will do for you</h3>
-                    <h1>Services</h1>
+                    <h1>Expertise</h1>
                 </div>
                 <div className="services">
                     <Grid container >
@@ -20,7 +19,7 @@ export class Services extends Component {
                             <div className="card">
                                 <img src={UiUxDevIcon} alt="ui-ux" />
                                 <div className="title">Web Design</div>
-                                <div className="desc">I do ui/ux design for the website that helps website to get a unique look.</div>
+                                <div className="desc">I design UI/UX for the website that helps website to get a unique look.</div>
                             </div>
                         </Grid>
                         <Grid md={4} sm={12} item className="grid-item">
@@ -34,7 +33,7 @@ export class Services extends Component {
                             <div className="card">
                                 <img src={GFXIcon} alt="app-dev" />
                                 <div className="title">Graphic Designing</div>
-                                <div className="desc">I can design clean and eye catching logo, banners, posters, brochure for you</div>
+                                <div className="desc">I design clean and eye catching logo, banners, posters, brochure for you</div>
                             </div>
                         </Grid>
                     </Grid>

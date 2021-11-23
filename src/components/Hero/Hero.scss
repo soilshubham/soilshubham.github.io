@@ -1,96 +1,100 @@
 header {
-  // background-color: #e9e9e9;
   .hero-section-grid {
-    padding: 3rem 10rem 10rem;
+    padding: 16rem 8rem 14rem;
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #f8f8f8;
     .title {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
       font-family: "Inter", sans-serif;
+      color: #383838;
 
       .title-1 {
         font-weight: 300;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
       .title-2 {
-        font-weight: 700;
+        font-weight: 900;
         font-size: 4.5rem;
+        // text-transform: uppercase;
       }
       .title-3 {
-        font-weight: 700;
-        font-size: 1.7rem;
-        text-transform: capitalize;
-      }
-      .title-4 {
         font-weight: 300;
-        font-size: 1rem;
-        margin: 1rem 0;
+        font-size: 1.4rem;
         text-transform: capitalize;
       }
       .call-to-action {
         margin-top: 2rem;
-
         .btn {
-          background: rgb(40, 193, 255);
-          background: linear-gradient(
-            27deg,
-            rgba(40, 193, 255, 1) 45%,
-            rgba(44, 215, 255, 1) 100%
-          );
-          padding: 0.9rem 2.7rem;
+          background: #6d83f2;
+          padding: 0.7rem 2.3rem;
           text-transform: none;
           font-family: "Inter", sans-serif;
           font-size: 1rem;
           font-weight: 600;
           text-transform: uppercase;
+          border-radius: 5px;
+
+          span {
+            color: #ffffff;
+          }
         }
-        .btn-outline {
-          border-radius: 0;
-          background-color: #ffffff;
-          border: solid 1px #000000;
-          color: #000000;
-          padding: 0.7rem 2rem;
-          text-transform: none;
-          font-family: "Inter", sans-serif;
-          font-size: 1rem;
-          font-weight: 600;
-          margin-right: 1rem;
+      }
+
+      .socials {
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+        width: 30%;
+
+        a {
+          color: #383838;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: #6d83f2;
+          }
         }
       }
     }
 
-    .image {
+    .code-block-container {
       display: flex;
+      justify-content: flex-end;
       align-items: center;
-      justify-content: center;
+    }
+  }
 
-      img {
-        width: 100%;
-      }
+  @media all and (max-width: 1200px) {
+    .hero-section-grid {
+      padding: 15rem 5rem 10rem;
+      flex-direction: row;
     }
   }
 
   @media all and (max-width: 960px) {
     .hero-section-grid {
-      padding: 2rem 0rem;
+      padding: 7rem 1rem 5rem;
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
+
       .title {
         align-items: center;
         text-align: center;
+        margin-bottom: 2rem;
 
-        .title-1 {
-        }
         .title-2 {
+          font-weight: 900;
+          font-size: 3.5rem;
+          // text-transform: uppercase;
         }
-        .title-3 {
-        }
-        .title-4 {
-          margin: 0.1rem 0;
-        }
+
         .call-to-action {
           margin-top: 2rem;
           .btn {
@@ -104,60 +108,52 @@ header {
             font-weight: 600;
           }
         }
+
+        .socials {
+          padding: 2rem 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin: auto;
+          width: 70%;
+        }
       }
 
-      .image {
-        img {
-          width: 60%;
-          margin-bottom: 2rem;
-        }
+      .code-block-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }
   @media all and (max-width: 500px) {
     .hero-section-grid {
-      padding: 1rem 0.5rem;
+      padding: 8rem 1rem 7rem;
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
 
       .title {
         .title-1 {
           font-weight: 300;
-          font-size: 1.1rem;
+          font-size: 1rem;
+          margin: 1rem 0 0.5rem;
         }
         .title-2 {
-          font-weight: 700;
-          font-size: 2.6rem;
+          font-weight: 900;
+          font-size: 2.5rem;
         }
         .title-3 {
           font-weight: 600;
           font-size: 1.1rem;
           text-transform: capitalize;
         }
-        .title-4 {
-          font-weight: 300;
-          font-size: 1rem;
-          margin: 1rem 0;
-        }
         .call-to-action {
           margin-top: 2rem;
           .btn {
-            padding: 0.9rem 2.7rem;
+            padding: 0.7rem 2.3rem;
             font-size: 1rem;
             font-weight: 600;
           }
-          .btn-outline {
-            padding: 0.5rem 1.7rem;
-            font-size: 0.9rem;
-            font-weight: 600;
-          }
-        }
-      }
-
-      .image {
-        img {
-          width: 100%;
-          margin-bottom: 1rem;
         }
       }
     }

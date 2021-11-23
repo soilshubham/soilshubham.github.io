@@ -1,0 +1,71 @@
+.code-block {
+  position: relative;
+  font-family: "Fira Code", monospace;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+
+  padding: 1.5rem 3.5rem;
+  width: 32rem;
+
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 20px, rgba(0, 0, 0, 0.08) 0px 0px 1px;
+  background-color: #383838;
+  div {
+    color: #c8d3f5;
+
+    strong {
+      color: #8398ff;
+    }
+  }
+
+  .red-dot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #ff6565;
+  }
+  .green-dot {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #7cda8b;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .code-block {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+
+    padding: 1.5rem 2.5rem;
+    width: 30rem;
+  }
+}
+@media all and (max-width: 760px) {
+  .code-block {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+
+    padding: 1.3rem 1.5rem;
+    width: 100%;
+
+    .red-dot {
+      top: 10px;
+      right: 10px;
+      width: 0.5rem;
+      height: 0.5rem;
+    }
+    .green-dot {
+      top: 10px;
+      right: 25px;
+      width: 0.5rem;
+      height: 0.5rem;
+    }
+  }
+}
