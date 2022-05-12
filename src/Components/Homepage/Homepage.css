@@ -1,0 +1,42 @@
+.anim-text{
+    /* background-image: linear-gradient(90deg,
+    #dc90ff,
+    #a88eff,
+    #94c6ff,
+    #b0ffa7,
+    #f5ffb1,
+    #ffcf97,
+    #ff9e9e,
+    #ffcf97,
+    #f5ffb1,
+    #b0ffa7,
+    #94c6ff,
+    #a88eff,
+    #dc90ff
+    ); */
+    background-image: linear-gradient(30deg, 
+    #32fcff, 
+    #61fcff, 
+    #49ffb3,
+    #32fcff, 
+    #86fdff, 
+    #2fe5e8, 
+    #adfff1,
+    #53e5ff,
+    #49ffb3, 
+    #2fe5e8,
+    #2fe5e8
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    color: transparent;
+    background-size: 700%;
+    animation: text-anim 7s linear infinite alternate-reverse;
+}
+
+@keyframes text-anim {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+  }
