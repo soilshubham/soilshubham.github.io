@@ -1,2 +1,0 @@
-(this["webpackJsonpsoilshubham.github.io"]=this["webpackJsonpsoilshubham.github.io"]||[]).push([[18],{170:function(a,t,e){"use strict";function i(a){a.languages.brainfuck={pointer:{pattern:/<|>/,alias:"keyword"},increment:{pattern:/\+/,alias:"inserted"},decrement:{pattern:/-/,alias:"deleted"},branching:{pattern:/\[|\]/,alias:"important"},operator:/[.,]/,comment:/\S+/}}a.exports=i,i.displayName="brainfuck",i.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_brainfuck.addca429.chunk.js.map
