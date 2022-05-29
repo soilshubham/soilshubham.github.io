@@ -8,7 +8,7 @@ const About = () => {
         <div className="font-semibold tracking-wide mb-3 text-3xl text-center md:text-left">
           About Me
         </div>
-        <div className="font-light tracking-wider text-[#e6fdffd1] text-center md:text-left">
+        <div className="font-light tracking-wider text-[#e6fdffae] text-center md:text-left">
           Design-minded full stack developer, involved with{" "}
           <span className="text-primary">MERN stack</span>. Interested in{" "}
           <span className="text-primary">
