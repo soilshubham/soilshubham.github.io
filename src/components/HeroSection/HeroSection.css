@@ -1,0 +1,66 @@
+#hero .main-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 15rem;
+    position: relative;
+}
+
+#hero .main-wrapper img{
+    width: 40%;
+    min-width: 200px;
+    object-fit: cover;
+}
+
+#hero .main-wrapper .text-wrapper{
+    position: absolute;
+    width: 25%;
+    min-width: 200px;
+    height: 100%;
+}
+
+#hero .main-wrapper .text-wrapper .text-1{
+    position: absolute;
+    top: 60px;
+    left: -70px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+#hero .main-wrapper .text-wrapper .text-2{
+    width: 2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    position: absolute;
+    right: -90px;
+    bottom: 80px;
+}
+
+
+@media screen and (max-width: 720px) {
+    #hero .main-wrapper .text-wrapper .text-1{
+        position: absolute;
+        top: 60px;
+        left: -35px;
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 4px;
+    }
+    
+    #hero .main-wrapper .text-wrapper .text-2{
+        width: 2rem;
+        line-height: 1.3rem;
+        font-weight: 500;
+        font-size: 1.3rem;
+        position: absolute;
+        right: -40px;
+        bottom: 60px;
+    }
+  }
