@@ -3,7 +3,7 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 27px;
     letter-spacing: 0.1em;
     width: fit-content;
@@ -26,4 +26,18 @@
 
 .custom-title .lines-r{
     right: -8rem;
+}
+
+
+@media screen and (max-width: 720px) {
+    .custom-title .lines-l, .custom-title .lines-r{
+        width: 4rem;
+    }
+    .custom-title .lines-l{
+        left: -6rem;
+    }
+    
+    .custom-title .lines-r{
+        right: -6rem;
+    }
 }
