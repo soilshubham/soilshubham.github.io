@@ -7,6 +7,11 @@ const Navbar = () => {
         <div className="nav-wrapper">
           <ul id="" className="">
             <li>
+              <a href="" className="brand">
+                sahil
+              </a>
+            </li>
+            {/* <li>
               <a href="" style={{ fontWeight: "600" }}>
                 Home
               </a>
@@ -16,7 +21,7 @@ const Navbar = () => {
             </li>
             <li>
               <a href="">Contact</a>
-            </li>
+            </li> */}
             <li className="right">
               <a href="" className="cta">
                 Let's Talk

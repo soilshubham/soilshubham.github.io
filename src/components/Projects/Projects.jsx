@@ -17,7 +17,9 @@ const Projects = () => {
             <div className="rank">01</div>
           </div>
           <div className="project-card-info">
-            <div className="title">Birthday Reminder</div>
+            <div className="title">
+              <strong>Birthday Reminder</strong>
+            </div>
             <div className="desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum, quisquam.
@@ -35,7 +37,7 @@ const Projects = () => {
               }
               alt=""
             />
-            <div className="rank">01</div>
+            <div className="rank">02</div>
           </div>
           <div className="project-card-info">
             <div className="title">Birthday Reminder</div>
@@ -56,7 +58,7 @@ const Projects = () => {
               }
               alt=""
             />
-            <div className="rank">01</div>
+            <div className="rank">03</div>
           </div>
           <div className="project-card-info">
             <div className="title">Birthday Reminder</div>

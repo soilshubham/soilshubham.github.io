@@ -18,6 +18,7 @@
     padding: 0;
     margin: 0;
     margin-bottom: 2.5rem;
+    margin-top: 3rem;
 }
 
 .skills-container .skill{
@@ -29,7 +30,7 @@
     background-color: #ffc4ca22;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
 }
