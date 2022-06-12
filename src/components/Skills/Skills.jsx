@@ -27,21 +27,59 @@ const Skills = () => {
     <div id="skills">
       <Title title="Skills" />
       <div className="skills-container">
-        <ReactIcon size={30} />
-        <NextIcon size={30} />
-        <JSIcon size={30} />
-        <NodeIcon size={30} />
-        <AIcon size={30} />
-        <ExpressIcon size={30} />
-        <PythonIcon size={30} />
-        <MongoDBIcon size={30} />
-        <SassIcon size={30} />
-        <PSIcon size={30} />
-        <TailwindIcon size={30} />
-        <UnityIcon size={30} />
-        <CSSIcon size={30} />
-        <FigmaIcon size={30} />
-        <GitIcon size={30} />
+        <div className="skill">
+          <ReactIcon />
+          <div className="title">React</div>
+        </div>
+        <div className="skill">
+          <NextIcon />
+          <div className="title">Next.js</div>
+        </div>
+        <div className="skill">
+          <JSIcon />
+          <div className="title">JavaScript</div>
+        </div>
+        <div className="skill">
+          <NodeIcon />
+          <div className="title">Node.js</div>
+        </div>
+        <div className="skill">
+          <ExpressIcon />
+          <div className="title">Express</div>
+        </div>
+        <div className="skill">
+          <PythonIcon />
+          <div className="title">Python</div>
+        </div>
+        <div className="skill">
+          <MongoDBIcon />
+          <div className="title">MongoDB</div>
+        </div>
+        <div className="skill">
+          <SassIcon />
+          <div className="title">Sass</div>
+        </div>
+        <div className="skill">
+          <UnityIcon />
+          <div className="title">Unity3D</div>
+        </div>
+        <div className="skill">
+          <TailwindIcon />
+          <div className="title">TailwindCSS</div>
+        </div>
+        <div className="skill">
+          <CSSIcon />
+
+          <div className="title">CSS</div>
+        </div>
+        <div className="skill">
+          <FigmaIcon />
+          <div className="title">Figma</div>
+        </div>
+        {/* <div className="skill">
+          <GitIcon />
+          <div className="title">Git</div>
+        </div> */}
       </div>
     </div>
   );
