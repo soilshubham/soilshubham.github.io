@@ -22,12 +22,12 @@
 }
 
 .skills-container .skill{
-    border: 1px solid #FFC4CA;
+    border: 1px solid #c1c1c1;
     border-radius: 5px;
     padding: 1rem 1.5rem;
     width: 3rem;
-    color: #ff8490;
-    background-color: #ffc4ca22;
+    color: #444444;
+    background-color: #b0b0b017;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -39,6 +39,7 @@
 }
 .skills-container .skill svg{
     font-size: 2.5rem;
+    color: #ff7381;
 }
 
 @media screen and (max-width: 720px) {

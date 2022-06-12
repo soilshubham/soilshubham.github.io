@@ -28,15 +28,29 @@
     border-radius: 4px;
 } */
 #navbar .nav-wrapper ul li .brand{
-    font-family: 'miracleregular', 'Playfair Display', 'Times New Roman', serif;
-    letter-spacing: 1px;
-    font-size: 1.4rem;
+    /* font-family: 'miracleregular', 'Playfair Display', 'Times New Roman', serif; */
+    font-family: "RosesBolero", 'Playfair Display', 'Times New Roman', serif;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
     font-weight: 600;
 }
-#navbar .nav-wrapper ul li .cta{
-    background-color: #EAEAEA;
-    color: black;
-    padding: 12px 26px;
-    border-radius: 4px;
+#navbar .nav-wrapper ul li .social-wrapper{
+    display: flex;
+    gap: 2rem;
+
+}
+
+#navbar .nav-wrapper ul li .social-wrapper .navlink{
+    font-family: "RosesBolero", 'Playfair Display', 'Times New Roman', serif;
+    letter-spacing: 2px;
     font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    #navbar .nav-wrapper ul li .social-wrapper{
+        display: none;
+    
+    }
 }

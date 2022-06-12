@@ -1,4 +1,9 @@
 import "./Navbar.css";
+import {
+  FaTwitter as Twitter,
+  FaGithub as Git,
+  FaLinkedin as LinkedIn,
+} from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -23,9 +28,11 @@ const Navbar = () => {
               <a href="">Contact</a>
             </li> */}
             <li className="right">
-              <a href="" className="cta">
-                Let's Talk
-              </a>
+              <div className="social-wrapper">
+                <div className="navlink">About</div>
+                <div className="navlink">Projects</div>
+                <div className="navlink">Contact</div>
+              </div>
             </li>
           </ul>
         </div>
