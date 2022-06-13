@@ -29,9 +29,15 @@ const Navbar = () => {
             </li> */}
             <li className="right">
               <div className="social-wrapper">
-                <div className="navlink">About</div>
-                <div className="navlink">Projects</div>
-                <div className="navlink">Contact</div>
+                <a href="#about" className="navlink">
+                  About
+                </a>
+                <a href="#projects" className="navlink">
+                  Projects
+                </a>
+                <a href="" className="navlink">
+                  Contact
+                </a>
               </div>
             </li>
           </ul>

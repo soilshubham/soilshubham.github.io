@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <div id="skills">
       <Title title="Skills" />
-      <div className="skills-container">
+      <div className="skills-container" data-aos="fade-up" data-aos-delay="200">
         <div className="skill">
           <ReactIcon />
           <div className="title">React</div>

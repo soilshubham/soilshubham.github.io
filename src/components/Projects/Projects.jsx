@@ -1,19 +1,18 @@
 import Title from "../common/Title";
 import "./Projects.css";
+import Proj1 from "../../assets/proj1.png";
+import Proj2 from "../../assets/proj2.png";
+import Proj3 from "../../assets/proj3.png";
 
 const Projects = () => {
   return (
     <div id="projects">
       <Title title="Projects" />
       <div className="project-wrapper">
-        <div className="project-card">
+        {/* =================================================== */}
+        <div className="project-card" data-aos="fade-up" data-aos-delay="200">
           <div className="project-card-image">
-            <img
-              src={
-                "https://images.unsplash.com/photo-1654124803462-e01f93b1550a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              }
-              alt=""
-            />
+            <img src={Proj1} alt="" />
             <div className="rank">01</div>
           </div>
           <div className="project-card-info">
@@ -21,53 +20,64 @@ const Projects = () => {
               <strong>Birthday Reminder</strong>
             </div>
             <div className="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum, quisquam.
+              A full-stack web application to remind you of your friends and
+              family birthdays.
             </div>
             <div className="info-links">
-              <a href=" ">Learn More</a>
+              <a
+                href="https://github.com/soilshubham/SaveDaDay"
+                target={"_blank"}
+              >
+                Learn More
+              </a>
             </div>
           </div>
         </div>
-        <div className="project-card card-alter">
+        {/* ===================================================== */}
+        <div
+          className="project-card card-alter"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <div className="project-card-image">
-            <img
-              src={
-                "https://images.unsplash.com/photo-1654124803462-e01f93b1550a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              }
-              alt=""
-            />
+            <img src={Proj2} alt="" />
             <div className="rank">02</div>
           </div>
           <div className="project-card-info">
-            <div className="title">Birthday Reminder</div>
+            <div className="title">Running Late - Game</div>
             <div className="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum, quisquam.
+              An isometric game where you have to manage your time and resources
+              to get to your destination.
             </div>
             <div className="info-links">
-              <a href=" ">Learn More</a>
+              <a
+                href="https://soilshubham.itch.io/running-late"
+                target={"_blank"}
+              >
+                Learn More
+              </a>
             </div>
           </div>
         </div>
-        <div className="project-card">
+        {/* ===================================================== */}
+        <div className="project-card" data-aos="fade-up" data-aos-delay="200">
           <div className="project-card-image">
-            <img
-              src={
-                "https://images.unsplash.com/photo-1654124803462-e01f93b1550a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              }
-              alt=""
-            />
+            <img src={Proj3} alt="" />
             <div className="rank">03</div>
           </div>
           <div className="project-card-info">
-            <div className="title">Birthday Reminder</div>
+            <div className="title">Sudoku Solver</div>
             <div className="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum, quisquam.
+              A sudoku solver with GUI that can solve any sudoku puzzle in
+              seconds.
             </div>
             <div className="info-links">
-              <a href=" ">Learn More</a>
+              <a
+                href="https://github.com/soilshubham/Sudoku-Solver"
+                target={"_blank"}
+              >
+                Learn More
+              </a>
             </div>
           </div>
         </div>

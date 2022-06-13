@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: #F9FAFB;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
 }
 
 p{
@@ -17,7 +18,8 @@ p{
 }
 
 #about, #skills, #projects{
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
 }
 
 #footer{
