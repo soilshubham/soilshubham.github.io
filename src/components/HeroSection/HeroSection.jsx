@@ -1,5 +1,5 @@
 import CoverImage from "../../assets/cover.png";
-import "./HeroSection.css";
+import "./HeroSection.scss";
 
 const HeroSection = () => {
   return (
@@ -19,8 +19,9 @@ const HeroSection = () => {
           >
             <a
               href="https://twitter.com/messages/compose?recipient_id=763040225551536128&text=hewo%20cutiee%20%3Eu%3C"
-              target={"_blank"}
+              target="_blank"
               className="cta"
+              rel="noreferrer"
             >
               Let's Talk
             </a>

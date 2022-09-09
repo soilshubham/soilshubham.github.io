@@ -1,86 +1,53 @@
-import Title from "../common/Title";
-import "./Projects.css";
-import Proj1 from "../../assets/proj1.png";
-import Proj2 from "../../assets/proj2.png";
-import Proj3 from "../../assets/proj3.png";
+import "./Projects.scss";
+import Proj1 from "../../assets/1.png";
+import Proj2 from "../../assets/2.png";
+import Proj3 from "../../assets/3.png";
+import { CgArrowLongRight as ExternalIcon } from "react-icons/cg";
+import data from "../../constants/data.json";
+import { HiOutlineHashtag as HashIcon } from "react-icons/hi";
 
 const Projects = () => {
+  const projImgs = [Proj1, Proj2, Proj3];
+
   return (
     <div id="projects">
-      <Title title="Projects" />
+      {/* <Title title="Projects" /> */}
+      <div className="header">
+        <span />
+        Projects
+      </div>
       <div className="project-wrapper">
-        {/* =================================================== */}
-        <div className="project-card" data-aos="fade-up" data-aos-delay="200">
-          <div className="project-card-image">
-            <img src={Proj1} alt="" />
-            <div className="rank">01</div>
-          </div>
-          <div className="project-card-info">
-            <div className="title">
-              <strong>Birthday Reminder</strong>
+        {data.projects.map((project, index) => {
+          return (
+            <div
+              className="project-card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="project-card-image">
+                <img src={projImgs[index]} alt="" />
+                <div className="rank">
+                  {index < 9 ? "0" + (index + 1) : index + 1}
+                </div>
+              </div>
+              <div className="project-card-info">
+                <div className="title">
+                  <strong>{project.name}</strong>
+                </div>
+                <div className="desc">{project.desc}</div>
+                <a
+                  href={project.url}
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="info-links"
+                >
+                  <span>Learn More </span>
+                  <ExternalIcon />
+                </a>
+              </div>
             </div>
-            <div className="desc">
-              A full-stack web application to remind you of your friends and
-              family birthdays.
-            </div>
-            <div className="info-links">
-              <a
-                href="https://github.com/soilshubham/SaveDaDay"
-                target={"_blank"}
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* ===================================================== */}
-        <div
-          className="project-card card-alter"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <div className="project-card-image">
-            <img src={Proj2} alt="" />
-            <div className="rank">02</div>
-          </div>
-          <div className="project-card-info">
-            <div className="title">Running Late - Game</div>
-            <div className="desc">
-              An isometric game where you have to manage your time and resources
-              to get to your destination.
-            </div>
-            <div className="info-links">
-              <a
-                href="https://soilshubham.itch.io/running-late"
-                target={"_blank"}
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* ===================================================== */}
-        <div className="project-card" data-aos="fade-up" data-aos-delay="200">
-          <div className="project-card-image">
-            <img src={Proj3} alt="" />
-            <div className="rank">03</div>
-          </div>
-          <div className="project-card-info">
-            <div className="title">Sudoku Solver</div>
-            <div className="desc">
-              A sudoku solver with GUI that can solve any sudoku puzzle in
-              seconds.
-            </div>
-            <div className="info-links">
-              <a
-                href="https://github.com/soilshubham/Sudoku-Solver"
-                target={"_blank"}
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </div>
   );

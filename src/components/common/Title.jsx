@@ -1,11 +1,11 @@
-import "./common.css";
+import "./common.scss";
 
 const Title = ({ title }) => {
   return (
     <div className="custom-title" data-aos="fade-up">
-      <div className="lines-l" />
+      {/* <div className="lines-l" /> */}
       <div>{title}</div>
-      <div className="lines-r" />
+      {/* <div className="lines-r" /> */}
     </div>
   );
 };

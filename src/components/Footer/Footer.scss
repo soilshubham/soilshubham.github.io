@@ -1,0 +1,84 @@
+@import '../../constants/_variables.scss';
+
+#footer{
+    background-color: #e8e8e8;
+    height: 13rem;
+    display: flex;
+
+    .content{
+        max-width: 720px;
+        width: 90%;
+        margin: 3rem auto;
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+    
+            .brand{
+                
+                font-family: $font-1;
+                font-size: 1.2rem;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+            }
+    
+            .links{
+                display: flex;
+                gap: 2rem;
+    
+                a{
+                    font-size: 0.8rem;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: $color-light-1;
+                }
+            }
+        }
+
+        .bot{
+            margin-top: 2rem;
+            .sidenote{
+                font-size: 0.7rem;
+                font-weight: 500;
+                color: $color-light-2;
+
+                a{
+                    color: $primary-color;
+                    text-decoration: none;
+
+                    &:hover{
+                        text-decoration: underline;
+                        color: #ff4a5c;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #footer{
+        height: auto;
+        margin: 0;
+
+        .content{
+            margin: 2rem 1rem;
+            .top{
+                flex-direction: column;
+                gap: 1rem;
+
+                .brand{
+                    font-size: 1.5rem;
+                }
+
+                .links{
+                    gap: 1.5rem;
+                }
+            }
+            .bot{
+                margin-top: 3rem;
+            }
+        }
+    }
+}

@@ -16,16 +16,17 @@ import {
   SiUnity as UnityIcon,
   SiPython as PythonIcon,
   SiNextdotjs as NextIcon,
-  SiAdobephotoshop as PSIcon,
-  SiAdobeillustrator as AIcon,
 } from "react-icons/si";
 import Title from "../common/Title";
-import "./Skills.css";
+import "./Skills.scss";
 
 const Skills = () => {
   return (
     <div id="skills">
-      <Title title="Skills" />
+      {/* <Title title="Technologies" /> */}
+      <div className="header">
+        Technologies <span />
+      </div>
       <div className="skills-container" data-aos="fade-up" data-aos-delay="200">
         <div className="skill">
           <ReactIcon />
