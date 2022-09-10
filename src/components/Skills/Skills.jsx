@@ -2,7 +2,6 @@ import {
   FaReact as ReactIcon,
   FaNodeJs as NodeIcon,
   FaFigma as FigmaIcon,
-  FaGitAlt as GitIcon,
 } from "react-icons/fa";
 import {
   DiJavascript1 as JSIcon,
@@ -16,6 +15,7 @@ import {
   SiUnity as UnityIcon,
   SiPython as PythonIcon,
   SiNextdotjs as NextIcon,
+  SiTypescript as TypescriptIcon,
 } from "react-icons/si";
 import Title from "../common/Title";
 import "./Skills.scss";
@@ -33,8 +33,8 @@ const Skills = () => {
           <div className="title">React</div>
         </div>
         <div className="skill">
-          <NextIcon />
-          <div className="title">Next.js</div>
+          <TypescriptIcon />
+          <div className="title">Typescript</div>
         </div>
         <div className="skill">
           <JSIcon />
@@ -49,6 +49,10 @@ const Skills = () => {
           <div className="title">Express</div>
         </div>
         <div className="skill">
+          <NextIcon />
+          <div className="title">Next.js</div>
+        </div>
+        <div className="skill">
           <PythonIcon />
           <div className="title">Python</div>
         </div>
@@ -60,10 +64,7 @@ const Skills = () => {
           <SassIcon />
           <div className="title">Sass</div>
         </div>
-        <div className="skill">
-          <UnityIcon />
-          <div className="title">Unity3D</div>
-        </div>
+
         <div className="skill">
           <TailwindIcon />
           <div className="title">TailwindCSS</div>

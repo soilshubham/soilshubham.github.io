@@ -18,7 +18,7 @@ const HeroSection = () => {
             data-aos-delay="400"
           >
             <a
-              href="https://twitter.com/messages/compose?recipient_id=763040225551536128&text=hewo%20cutiee%20%3Eu%3C"
+              href="https://twitter.com/messages/compose?recipient_id=763040225551536128&text=Hi%20Sahil,"
               target="_blank"
               className="cta"
               rel="noreferrer"

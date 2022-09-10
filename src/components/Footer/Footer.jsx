@@ -29,6 +29,13 @@ const Footer = () => {
             >
               Twitter
             </a>
+            <a
+              href="https://froznpoop.portfoliobox.net/logos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GFX Designs
+            </a>
           </div>
         </div>
         <div className="bot">

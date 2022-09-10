@@ -27,3 +27,21 @@
     padding-top: 3rem;
     margin-bottom: 10rem;
 }
+
+@media screen and (max-width: 720px) {
+    #about{
+        .heading{
+            text-align: left;
+            font-family: $font-2;
+            color: $color-light-1;
+            font-weight: 600;
+            font-size: 2rem;
+            letter-spacing: 3px;
+            line-height: 3rem;
+    
+            span{
+                color: #FF7381;
+            }
+        }
+    }
+}
