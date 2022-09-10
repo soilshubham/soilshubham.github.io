@@ -19,14 +19,16 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Navbar />
-      <HeroSection />
-      <About />
-      <Skills />
-      <Projects />
+    <>
+      <div className="App">
+        <Navbar />
+        <HeroSection />
+        <About />
+        <Skills />
+        <Projects />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,21 @@
+{
+    "name": "Sahil Shubham",
+    "email": "soilshubham@gmail.com",
+    "projects": [
+        {
+            "name": "Splitto",
+            "desc": "A full stack web application to track and manage group expenses is a simplified way",
+            "url": "https://github.com/soilshubham/Splitto"
+        },
+        {
+            "name": "Running Late - Game",
+            "desc": "An isometric game where you have to manage your time and resources to get to your destination.",
+            "url": "https://soilshubham.itch.io/running-late"
+        },
+        {
+            "name": "Balance Tracker",
+            "desc": "A web application to help you keep track of your ERC20 tokens in a convenient way",
+            "url": "https://soilshubham.itch.io/Balance-Tracker"
+        }
+    ]
+}
