@@ -10,27 +10,13 @@ const Navbar = () => {
               sahil
             </a>
           </li>
-          {/* <li>
-              <a href="" style={{ fontWeight: "600" }}>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="">About</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
-            </li> */}
           <li className="right">
             <div className="social-wrapper">
-              <a href="#about" className="navlink">
-                About
-              </a>
-              <a href="#projects" className="navlink">
-                Projects
-              </a>
-              <a href="#footer" className="navlink">
-                Contact
+              <a
+                href="https://twitter.com/messages/compose?recipient_id=763040225551536128&text=Hi%20there,%20"
+                className="navlink"
+              >
+                Let's talk
               </a>
             </div>
           </li>

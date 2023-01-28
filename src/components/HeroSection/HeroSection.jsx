@@ -1,4 +1,4 @@
-import CoverImage from "../../assets/cover.png";
+import CoverImage from "../../assets/coverhd.png";
 import "./HeroSection.scss";
 
 const HeroSection = () => {
@@ -6,16 +6,22 @@ const HeroSection = () => {
     <main id="hero">
       <div className="main-wrapper">
         <div className="name-wrapper">
-          <div className="name-1" data-aos="fade-right">
+          <div className="name-1" data-aos="fade-right" data-aos-duration="700">
             sahil
           </div>
-          <div className="tagline" data-aos="fade-right" data-aos-delay="200">
+          <div
+            className="tagline"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="700"
+          >
             Designer + Developer
           </div>
           <div
             className="cta-container"
             data-aos="fade-right"
             data-aos-delay="400"
+            data-aos-duration="700"
           >
             <a
               href="https://twitter.com/messages/compose?recipient_id=763040225551536128&text=Hi%20Sahil,"

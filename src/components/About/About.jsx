@@ -8,7 +8,7 @@ const About = () => {
       <p
         style={{ textAlign: "center" }}
         data-aos="fade-up"
-        data-aos-delay="200"
+        data-aos-duration="700"
       >
         <div className="heading">
           I'm a <span>Full Stack Engineer</span> who enjoys working with{" "}

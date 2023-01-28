@@ -5,48 +5,42 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="content">
-        <div className="top">
+        <div className="group">
           <div className="brand">sahil</div>
-          <div className="links">
-            <a
-              href="https://github.com/soilshubham"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="http://linkedin.com/in/soilshubham/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Linkedin
-            </a>
+          <a href="" className="email">
+            soilshubham@gmail.com
+          </a>
+        </div>
+        <div className="group links">
+          <div className="group-header">Follow me</div>
+          <div className="group-content">
             <a
               href="https://twitter.com/froznxd"
               target="_blank"
-              rel="noreferrer"
+              className="follow-link"
             >
-              Twitter
+              twitter
             </a>
-            <a
-              href="https://froznpoop.portfoliobox.net/logos"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GFX Designs
-            </a>
-          </div>
-        </div>
-        <div className="bot">
-          <div className="sidenote">
-            Developed by{" "}
             <a
               href="https://github.com/soilshubham"
               target="_blank"
-              rel="noreferrer"
+              className="follow-link"
             >
-              Sahil Shubham
+              github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/soilshubham/"
+              className="follow-link"
+              target="_blank"
+            >
+              linkedin
+            </a>
+            <a
+              href="https://froznpoop.portfoliobox.net"
+              target="_blank"
+              className="follow-link"
+            >
+              gfx design
             </a>
           </div>
         </div>
